@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"; lang="pt-br">
+        <title> contato - barbearia Alura </title>
+        <link rel="stylesheet" href="barbearia alura/css/reset.css">
+        <link rel="stylesheet" href="barbearia alura/css/contato.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="caixa"> 
+                <h1> <img src="barbearia alura/img/logo.png" alt="logo barbearia alura">   </h1>
+                <nav>
+                    <ul>
+                        <li> <a href="index.html"> Home </a></li>
+                        <li> <a href="produtos.html"> Produtos</a></li>
+                        <li> <a href="contato.html"> Contatos </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form >
+                <label for="nomesobrenome">Nome e sobrenome </label>
+                <input type="text" id="nomesobrenome" class="input_padrao" required placeholder="seu nome e sobrenome">
+
+                <label for="email">Email </label>
+                <input type="text" id="email" class="input_padrao" required placeholder="email@dominio.com">
+
+                <label for="telefone">Telefone </label>
+                <input type="text" id="telefone" class="input_padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70"  rows="10" id="mensagem" class="input_padrao" required ></textarea>
+
+                    <fieldset>
+                            <legend> Como prefere nosso contato</legend>
+
+                            <label for="radio_email"><input type="radio" name="contato" value="email" id="radio_email"> Email </label>
+                    
+                            <label for="radio_telefone"><input type="radio" name="contato" value="telefone" id="radio_telefone"> Telefone </label> 
+
+                            <label for="radio_whatsaap"><input type="radio" name="contato" value="radio_whatsapp" id="radio_whatsaap" checked> Whatsaap </label>
+                        
+                            </fieldset>
+
+                            <legend> Qual horario prefere ser atendido</legend>
+                            <select>
+                                <option> Manha </option>
+                                <option> Tarde </option>
+                                <option> Noite </option>
+                            </select>
+
+
+                        <table>
+                                <thead>
+                                    <tr>
+                                        <th>Dia</th>
+                                        <th>Horário</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Segunda</td>
+                                        <td>8h ~ 20h</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Quarta</td>
+                                        <td>8h ~ 20h</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sexta</td>
+                                        <td>8h ~ 20h</td>
+                                    </tr>
+                                </tbody>
+                        </table>
+
+                 <label><input type="checkbox" class="checkbox" checked>  Gostaria de receber nossas novidade por email </label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+            
+        </main>
+        <footer>
+            <img src="C:\Users\ViniciusPaz\Desktop\CURSO ONE\barbearia alura\img\logo-branco.png " alt="logo barbearia alura">
+            <p class="copyrights">&copy; Copyright Barbearia alura - 2019</p>
+        </footer>
+    </body>
+</html>
